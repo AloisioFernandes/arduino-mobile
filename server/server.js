@@ -18,6 +18,6 @@ parser.on('data', data => io.emit('dadoArduino', { valor: data, }))
 
 io.on('connection', socket => console.log('Um usuário está conectado!'))
 
-http.listen(3000, function() {
-    console.log('O servidor está em 3000')
+http.listen(3000, function() { //servidor estará conectado na porta 3000
+    console.log('O servidor está na porta 3000')
 })
