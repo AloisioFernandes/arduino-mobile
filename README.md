@@ -16,7 +16,7 @@ Versão móvel do projeto arduino web. Aplicativo que recebe dados do monitor se
 
 ## Primeiro passo - baixar o projeto
 Faça download do repositório acima ou use o seguinte comando na pasta onde deseja baixar o projeto:
- - git clone 
+ - git clone https://github.com/AloisioFernandes/arduino-mobile.git
 
 ## Segundo passo - fazer upload do arquivo para arduino
 Abra a pasta arduino-ldr e faça upload do arquivo arduinoLDR.ino para sua placa arduino. A porta analógica utilizada é A2, se estiver utilizando uma porta diferente altere a linha 1 desse código.
